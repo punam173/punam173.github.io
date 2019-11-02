@@ -1,0 +1,73 @@
+
+/*static position for all selectors*/
+*:not(.outer-grid){
+    position: static;
+}
+body {
+    font-family: "Lato", sans-serif;
+    margin:0px;
+    padding: 0px;
+} 
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed; /*nav menu bar position is fixed*/
+    z-index: 1;   /*making it appear over the main page*/
+    top: 0;
+    left: 0;
+    /* background-image: linear-gradient( black, #096479,#00d4ff); */
+    background-color: rgb(48, 47, 46);
+    overflow-x: hidden;
+    padding-top: 350px;
+}
+.sidenav a {    /*menu bar elements*/
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+.sidenav a:hover {
+    color: #8a8686;
+    zoom: 120%;
+    border: 1px solid;
+    
+}
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#profilepic{
+    position: absolute;    
+    top: 50px;
+    left: 30px;
+    /* padding: 45px; */
+    border: 1px solid rgb(12, 12, 12);   
+}
+.outer-grid{
+    margin-left: 300px; /* Same as the width of the sidenav */
+    /* font-size: 28px; Increased text to enable scrolling */
+    padding: 0px;
+    position: relative;
+}
+.welcomepage{  
+    display: block;
+}
+#image{
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.centered {    /* making the test to apear over the image*/
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    font-size: 40px;  
+    font-style: oblique; 
+    margin-top: 50px;
+    margin-left: 250px;
+}  
