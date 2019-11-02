@@ -1,0 +1,66 @@
+/*first article of the section*/
+.grid{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 650px 650px 650px 650px;
+    /* background-color: blue; */
+}
+span{
+    background-color: coral;
+    color: white;
+    padding: 10.5px;
+}
+.mycontent{
+  /* align-content: center; */
+  padding: 8px;
+  border-bottom: 3px solid coral;
+  font-size: 30px;
+  
+}
+/*adding flex layout to arrage the article content in row*/
+.intro{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+} 
+h4{
+font-family: courier;
+font-size: 20px;
+color: rgb(73, 63, 63);
+}
+p{
+  text-indent: 70px;
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 25px;;
+  color: rgb(61, 58, 58);
+
+}
+/*giving more space to the first content of the article*/
+#article1{
+  flex: 4;
+}
+#art2{
+  flex: 2;
+  order: 1;
+}
+#art3{
+  flex: 2;
+  
+}
+#a{
+  text-align: center;
+}
+#image2{
+  margin-top: 20px;
+  width:300px;
+  height: 150px
+}
+#art2 a:hover{
+  zoom: 120% ;
+}
