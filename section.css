@@ -64,3 +64,40 @@ p{
 #art2 a:hover{
   zoom: 120% ;
 }
+
+/* Article2 of the main section*/
+
+
+.intro2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+#part2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+} 
+
+#article2{
+    flex: 3;
+    margin-right: 30px;
+}
+.button {
+    background-color: rgba(236, 230, 230, 0.815); /* Green */
+    border: none;
+    border-radius: 0.5em;
+    color: rgb(80, 72, 72);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    padding: 6px;
+  
+  }
+  #res:hover{
+        zoom: 130%
+  }
