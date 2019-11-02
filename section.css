@@ -98,6 +98,99 @@ p{
     padding: 6px;
   
   }
-  #res:hover{
+#res:hover{
         zoom: 130%
-  }
+}
+
+/*article3*/
+.header{ grid-area: header;}
+    .nav{ grid-area: nav;}
+    .main{ grid-area: article;}
+    .footer{ grid-area: footer;}
+
+#projectinfo{
+    display: flex;
+   flex-direction: row;
+   /* flex-wrap: wrap; */
+}  
+  
+#machn{
+    flex:1;
+    margin-top: 30px;
+}
+#machn1{
+    flex:1;
+    margin-top: 5px;
+}
+
+/*article 4*/
+
+.item1 { grid-area: name; }
+.item2 { grid-area: email; }
+.item3 { grid-area: message; }
+.item4 { grid-area: submit; }
+
+.grid-container{
+   display: grid;
+   grid-template-areas:
+        'name email'
+        'message message'
+      
+        'submit submit';
+        grid-gap: 20px;
+        padding: 10px;
+}
+/* .a{
+  margin-bottom: 10px;
+} */
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.item3{
+  height: 100px;
+}
+textarea{
+  width: 85%;
+  height: 100px;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+#sub{
+  color: white;
+  background-color: coral;
+  padding: 2px 4px;
+  width: 15%;
+  margin-top: 15px;
+  height: 40px;
+      
+}
+
+#end{
+  height: 155px;
+  background-color: rgb(69, 70, 66);
+}
+#second{
+  margin-left:10px;
+  margin-right:10px;
+  padding-top: 20px;
+  height: 60px;
+  background-color: rgb(122, 120, 120);
+}
+/* #second a{
+     margin-top: 80px;
+} */
+
+#copyright{
+       margin-top: 20px;
+       margin-left: 10px;
+       text-align: left;
+       color: white;
+}
