@@ -24,9 +24,10 @@ body {
     padding: 12px;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    color: white;
+    font-size: 16px;
+    color: rgb(245, 238, 238);
     display: block;
+    letter-spacing: 2px;
 }
 .sidenav a:hover {
     color: #8a8686;
@@ -42,9 +43,14 @@ body {
 #profilepic{
     position: absolute;    
     top: 50px;
-    left: 30px;
+    left: 37px;
     /* padding: 45px; */
-    border: 1px solid rgb(12, 12, 12);   
+    /* border: 1px solid rgb(12, 12, 12);    */
+}
+#sign{
+    position: absolute; 
+    top: 300px;
+    left: 60px;
 }
 .outer-grid{
     margin-left: 300px; /* Same as the width of the sidenav */
@@ -67,7 +73,7 @@ body {
     top: 0;
     left:0;
     font-size: 40px;  
-    font-style: oblique; 
+    letter-spacing: 3px;
     margin-top: 50px;
     margin-left: 250px;
 }  
